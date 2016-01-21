@@ -1,0 +1,10 @@
+syntax="proto3";
+
+package storm;
+
+message MessageData {
+    string Command = 1;
+    repeated string CommandArguments = 2;
+    repeated string StormArguments = 3;
+    bytes Payload = 4;
+}

@@ -1,0 +1,1 @@
+g++ *.cpp *.h *.cc  -o main -lprotobuf -lz -lpthread -std=c++11 -pthread
